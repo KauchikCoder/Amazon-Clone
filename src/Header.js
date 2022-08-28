@@ -18,11 +18,10 @@ function Header() {
     return (
         <div className="header">
             <Link to="/">
-                {/* <img
-          className="header__logo"
-          src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
-        /> */}
-                <h1 className="header__heading">Amazon na bapa</h1>
+                <img
+                    className="header__logo"
+                    src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
+                />
             </Link>
 
             <div className="header__search">
